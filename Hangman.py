@@ -53,6 +53,7 @@ while (mainLoop == True):
 	l = letter
 	if (find_letter(guessList) == True):
 			print("You already guessed that letter!")
+			print("you stil have ", maxGuesses-guessCounter, "guesses left")
 			guessCounter = guessCounter -1
 			continue
 	else:
@@ -94,7 +95,7 @@ while (mainLoop == True):
 
 if win == True:
 	print ("CONGRADULATIONS! You won. The word was ", correctword)
-	print (" Thanks for playing")
+	print (" Thanks for playing :)")
 else:
 	print ("heh you lose... Try again some time")
 	print ("The word was ", correctword)

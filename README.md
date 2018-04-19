@@ -1,4 +1,4 @@
 # Python-Work
-Initial Python work, might be capped with more recent projects and code snippets
+Code-snippets and projects. If any were class work then the original project description is missing. 
 
 Quite basic, conceptual pieces originally written on Notepad++. 

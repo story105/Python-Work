@@ -12,16 +12,16 @@ def keyLine( linenumber ):
 	lines = g.readlines()
 	#print indentList
 	for ii in linenumber:
-		linemax = ii+5
+	#	linemax = ii+5
 		while (ii> -1):
 			if (ii not in linenumber) and ((ii) in indentList): 
 				#print ("it broke at the first line")
 				ii = -40
 				break;
-			if (ii > linemax): #will print one line past this
-				print("linemax break")
-				ii=-400
-				break;
+	#		if (ii > linemax): #will print one line past this
+	#			print("linemax break")
+	#			ii=-400
+	#			break;
 			else:
 				#if (a-ii in linenumber):
 					#print(ii)

@@ -1,0 +1,6 @@
+These files are a program that helps search a large file to find certain contigs that we seek to analyze. The file is a FASTA 
+produced by Trinity, and each '>' indicated a new contig. The varying length means that each section needs to be printed
+without counting lines, the only iteration occurs on initial reading to find each strand of RNA's line number. The given .txt file
+works, and if you created a larger .txt file or .fasta or whatever may suit you then it will still run the same: run time being
+O(n) in worst case. Certain strands you seek should be known, enter the line number into the set "randomList," which, looking back on it,
+is a poor name choice.

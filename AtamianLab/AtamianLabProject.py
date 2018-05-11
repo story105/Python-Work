@@ -1,5 +1,5 @@
 #For Atamian Lab
-randomList = [9,21]
+choiceList = [9,21]
 indentList = []
 f=open("AtamianTxt.txt")
 g=open("AtamianTxt.txt")
@@ -30,7 +30,7 @@ def keyLine( linenumber ):
 			ii=ii+1
 	#return;
 	
-number=set(randomList)
+number=set(choiceList)
 
 o=open('ResultsAtamian.txt','w')
 print(number)
